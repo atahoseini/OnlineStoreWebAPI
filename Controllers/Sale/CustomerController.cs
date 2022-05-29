@@ -29,7 +29,7 @@ namespace OnlineStoreWebAPI.Controllers.Sale
                     CustomerCode=q.CustomerCode,
                     Id=q.Id,
                     Mobile=q.Mobile,
-
+                    CityId=q.CityId,
                     CityName=q.City.CityName,
                     ProvinceName=q.City.Province.Title
                 }).ToListAsync();
